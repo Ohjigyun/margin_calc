@@ -21,12 +21,20 @@ export const tableContainerSx = {
   margin: '0px'
 }
 
+export const smallTableContainerSx = {
+  margin: '1.5rem 0 0 0'
+}
+
 export const tableSx = {
   minWidth: 280
 }
 
 export const tableHeaderSx = {
-  bgcolor: '#2F7DD2'
+  bgcolor: '#2F7DD2',
+}
+
+export const textAlignSx = {
+  textAlign: 'center'
 }
 
 export const tdSx = {
@@ -41,7 +49,7 @@ export const inputSx = {
 }
 
 export const numberInputSx = {
-  maxWidth: '3rem',
+  maxWidth: '4rem',
   fontSize: '12px',
 }
 
@@ -51,5 +59,6 @@ export const numberSx = {
 
 export const qtyInputSx = {
   fontSize: '14px',
-  maxWidth: '3rem'
+  maxWidth: '3rem',
 }
+
